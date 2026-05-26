@@ -1,0 +1,27 @@
+# config.yaml — Ollama 本地模型配置
+
+api_keys:
+  openai: ""
+  replicate: ""
+  anthropic: ""
+  zhipuai: "519a2d1970ea4bfe9a5dc38e50b9f0f2.Sbf7jn9VgKQpM9KS"
+
+inference:
+  type: "llm"
+
+biases:
+  doctor: "None"
+  patient: "None"
+
+language_models:
+  doctor: "ollama:qwen2.5:7b"
+  patient: "ollama:qwen2.5:7b"
+  measurement: "ollama:qwen2.5:7b"
+  moderator: "ollama:qwen2.5:7b"
+
+scenario:
+  dataset: "MedQA"
+  image_request: false
+  num_scenarios: null
+  total_inferences: 20
+  output_dir: ""

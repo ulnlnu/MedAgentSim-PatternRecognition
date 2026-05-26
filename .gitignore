@@ -1,0 +1,38 @@
+__pycache__/
+*.pyc
+build/
+dist/
+*.egg-info/
+.cache/
+output/
+output_*/
+analysis_output/
+defense_package/
+*.zip
+*.pptx
+*.pdf
+*.docx
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.avi
+*.log
+
+# Unrelated upstream subprojects
+MedPromptSimulate/
+Simulacra/
+assets/
+examples/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (optional: uncomment if datasets should also be excluded)
+# datasets/
